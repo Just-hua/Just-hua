@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .textarea {
+          height: 200px;
+          width: 300px;
+          padding: 4px;
+          border: 1px solid #888;
+          resize: vertical;
+          overflow: auto;
+        }
+        
+        .textarea:empty:before {
+          content: attr呜呜呜(placeholder);
+          color: #bbb;
+        }
+</style>
+<body>
+    <script>
+//     var arr=[1,2,3,4];
+//     var arr2=[];
+//     // while(arr.length) {
+//     //     var num=arr.pop();
+//     //     arr2.push(num);
+//     // }
+//     for(var i=0;i<arr.length;i++){
+//         arr2.unshift(arr[i])
+//     }
+//     alert(arr2);
+
+// let user={
+//     name:'zs',
+//     age:18,
+//     gender:'男'
+// }
+// let {name:username,age:userage,gender}=user
+// console.log(name);
+// console.log(username);
+
+
+function fn(){
+    console.log(123)
+}
+fn();
+
+() => {
+    console.log(123)
+} ();
+
+
+     </script>
+    	
+        <div class="textarea" contenteditable="true" placeholder="This is placeholder"></div>
+        
+
+</body>
+</html>
